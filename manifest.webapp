@@ -1,6 +1,6 @@
 {
-  "name": "Built-in Keyboard",
-  "description": "Built-in Keyboard",
+  "name": "Gaia Keyboard Template",
+  "description": "Keyboard Template to develop 3rd keyboard for Firefox OS",
   "type": "certified",
   "role": "input",
   "launch_path": "/settings.html",
@@ -24,16 +24,22 @@
           "description": "Numeric layout"
         }
       }
+    },
+    "en": {
+      "launch_path": "/index.html#en",
+      "name": "English",
+      "description": "English layout",
+      "types": ["text", "url", "email", "password"]
     }
   },
   "locales": {
     "en-US": {
-      "name": "Built-in Keyboard",
-      "description": "Built-in Keyboard"
+      "name": "Gaia Keyboard Template",
+      "description": "Gaia Keyboard Template"
     },
     "zh-TW": {
-      "name": "預設鍵盤",
-      "description": "預設鍵盤"
+      "name": "鍵盤範例",
+      "description": "鍵盤範例"
     }
   },
   "default_locale": "en-US"
